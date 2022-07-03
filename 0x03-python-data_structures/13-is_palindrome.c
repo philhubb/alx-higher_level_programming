@@ -1,51 +1,36 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
+
 /**
- * is_palindrome - prints all elements of a listint_t list
- * @head: pointer to head of list
- * Return: 1 if is palindrome
+ * is_palindrome - check if a linked list is a palindrome
+ * @head: head of the linked list
+ *
+ * Return: 1 if palindrome, 0 if not
  */
+
 int is_palindrome(listint_t **head)
 {
-	listint_t *ojo, *ojo2;
-	int tama = 0;
-	int ciclador = 0;
-	int iterador = 0;
-	int otra = 0;
-	int cont = 0;
+	listint_t *current_node;
+	char buf[10000];
+	int i, length = 0;
 
-	if (!*head)
+	if (!*head || !head)
 		return (1);
-	ojo = *head;
-	ojo2 = *head;
-	while (ojo->next)
+
+	current_node = *head;
+	if (!current_node->next)
+		return (1);
+
+	while (current_node)
 	{
-		ojo = ojo->next;
-		tama++;
+		buf[length] = current_node->n;
+		current_node = current_node->next;
+		length++;
 	}
-	ojo = *head;
-	ciclador = tama + 1;
-	if (tama % 2 == 0)
-		otra = tama / 2;
-	else
-		otra = (tama / 2) - 1;
-	while (iterador < ciclador)
-	{		ojo2 = ojo2->next;
-		iterador++;
-		if (iterador == tama)
-		{
-			if (ojo->n == ojo2->n)
-			{				cont++;
-				iterador = cont - 1;
-				tama--;
-				if (tama == otra)
-					break;
-				ojo2 = ojo;
-				ojo = ojo->next;
-			}			else
-				return (0);
-		}
+	length = length - 1;
+	for (; length >= 0 && i <= length; length--, i++)
+	{
+		if (buf[length] != buf[i])
+			return (0);
 	}
 	return (1);
 }
