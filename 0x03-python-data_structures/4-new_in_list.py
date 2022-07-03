@@ -1,7 +1,14 @@
 #!/usr/bin/python3
-def print_reversed_list_integer(my_list=[]):
-    if my_list is None:
-        return None
+def new_in_list(my_list, idx, element):
+    if idx < 0:
+        return my_list
+    new_list = []
+    new_list += my_list
+    for idxs, integer in enumerate(new_list):
+        if idxs == idx:
+            new_list[idxs] = element
+            a = 1
+    if idx <= idxs:
+        return new_list
     else:
-        for integer in reversed(my_list):
-            print("{:d}".format(integer))
+        return my_list
