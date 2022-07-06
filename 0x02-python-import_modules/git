@@ -1,4 +1,6 @@
 #!/bin/bash
+chmod u+x 1-calculation.py
 git add .
+git add --chmod=+x 1-calculation.py
 git commit -m "Mandatory tasks"
 git push
