@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 102-magic_calculation.py
+chmod u+x 103-fast_alphabet.py
 git add .
-git add --chmod=+x 102-magic_calculation.py
+git add --chmod=+x 103-fast_alphabet.py
 git commit -m "Advanced tasks"
 git push
