@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 4-hidden_discovery.py
+chmod u+x 5-variable_load.py
 git add .
-git add --chmod=+x 4-hidden_discovery.py
+git add --chmod=+x 5-variable_load.py
 git commit -m "Mandatory tasks"
 git push
