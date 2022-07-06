@@ -7,6 +7,6 @@ if __name__ == "__main__":
     else:
         for x in range(len(sys.argv)):
             if x > 0:
-                sums = sums + int(sys.argv[x])
+                suma = suma + int(sys.argv[x])
 
-        print('{}'.format(sums))
+        print('{}'.format(suma))
