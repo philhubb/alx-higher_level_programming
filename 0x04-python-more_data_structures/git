@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 11-multiply_list_map.py
+chmod u+x 12-roman_to_int.py
 git add .
-git add --chmod=+x 11-multiply_list_map.py
+git add --chmod=+x 12-roman_to_int.py
 git commit -m "Mandatory tasks"
 git push
