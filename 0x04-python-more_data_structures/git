@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 11-main.py
+chmod u+x 11-multiply_list_map.py
 git add .
-git add --chmod=+x 11-main.py
+git add --chmod=+x 11-multiply_list_map.py
 git commit -m "Mandatory tasks"
 git push
