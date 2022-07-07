@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 6-print_sorted_dictionary.py
+chmod u+x 7-update_dictionary.py
 git add .
-git add --chmod=+x 6-print_sorted_dictionary.py
+git add --chmod=+x 7-update_dictionary.py
 git commit -m "Mandatory tasks"
 git push
