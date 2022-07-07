@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 7-update_dictionary.py
+chmod u+x 8-simple_delete.py
 git add .
-git add --chmod=+x 7-update_dictionary.py
+git add --chmod=+x 8-simple_delete.py
 git commit -m "Mandatory tasks"
 git push
