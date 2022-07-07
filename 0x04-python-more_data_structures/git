@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 3-common_elements.py
+chmod u+x 4-only_diff_elements.py
 git add .
-git add --chmod=+x 3-common_elements.py
+git add --chmod=+x 4-only_diff_elements.py
 git commit -m "Mandatory tasks"
 git push
