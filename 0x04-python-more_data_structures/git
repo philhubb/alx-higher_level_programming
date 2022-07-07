@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 10-best_score.py
+chmod u+x 11-multiply_list_map.py
 git add .
-git add --chmod=+x 10-best_score.py
+git add --chmod=+x 11-multiply_list_map.py
 git commit -m "Mandatory tasks"
 git push
