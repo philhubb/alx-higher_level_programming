@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 100-weight_average.py
+chmod u+x 101-square_matrix_map.py
 git add .
-git add --chmod=+x 100-weight_average.py
+git add --chmod=+x 101-square_matrix_map.py
 git commit -m "Advanced tasks"
 git push
