@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 2-safe_print_list_integers.py
+chmod u+x 3-safe_print_division.py
 git add .
-git add --chmod=+x 2-safe_print_list_integers.py
+git add --chmod=+x 3-safe_print_division.py
 git commit -m "Mandatory task"
 git push
