@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 100-singly_linked_list.py
+chmod u+x 101-square.py
 git add .
-git add --chmod=+x 100-singly_linked_list.py
+git add --chmod=+x 101-square.py
 git commit -m "Mandatory task"
 git push
