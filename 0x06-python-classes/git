@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 1-square.py
+chmod u+x 2-square.py
 git add .
-git add --chmod=+x 1-square.py
+git add --chmod=+x 2-square.py
 git commit -m "Mandatory task"
 git push
