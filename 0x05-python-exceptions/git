@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 5-raise_exception.py
+chmod u+x 6-raise_exception_msg.py
 git add .
-git add --chmod=+x 5-raise_exception.py
+git add --chmod=+x 6-raise_exception_msg.py
 git commit -m "Mandatory task"
 git push
