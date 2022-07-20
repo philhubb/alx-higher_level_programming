@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 102-square.py
+chmod u+x 103-magic_class.py
 git add .
-git add --chmod=+x 102-square.py
+git add --chmod=+x 103-magic_class.py
 git commit -m "Mandatory task"
 git push
