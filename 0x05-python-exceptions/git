@@ -1,6 +1,6 @@
 #!/bin/bash
-chmod u+x 6-raise_exception_msg.py
+chmod u+x 100-safe_print_integer_err.py
 git add .
-git add --chmod=+x 6-raise_exception_msg.py
+git add --chmod=+x 100-safe_print_integer_err.py
 git commit -m "Mandatory task"
 git push
