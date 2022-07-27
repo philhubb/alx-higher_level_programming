@@ -1,6 +1,0 @@
-#!/bin/bash
-chmod u+x 0-safe_print_list.py
-git add .
-git add --chmod=+x 0-safe_print_list.py
-git commit -m "Mandatory task"
-git push
