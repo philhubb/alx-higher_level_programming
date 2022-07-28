@@ -1,6 +1,0 @@
-#!/bin/bash
-chmod u+x *.py
-git add .
-git add --chmod=+x *.py
-git commit -m "Mandatory task"
-git push
