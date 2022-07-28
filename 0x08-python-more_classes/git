@@ -2,5 +2,5 @@
 chmod u+x *.py
 git add .
 git add --chmod=+x *.py
-git commit -m "Mandatory tasks"
+git commit -m "Advanced task"
 git push
